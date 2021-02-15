@@ -21,7 +21,7 @@
 			}
 			if (item=="") {
 				$scope.Message = "Please enter data first";
-			}else if(i<=3){
+			}else if(sum<=3){
 				$scope.Message = "Enjoy!";
 			}else {
 				$scope.Message = "Too much";
